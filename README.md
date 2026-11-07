@@ -2,13 +2,38 @@
   <img src="assets/header.svg" alt="Vyacheslav Samuilenko — Backend Developer · C# / .NET · Python" width="100%">
 </p>
 
-<p align="center"><b>English</b> · <a href="README.ru.md">Русский</a></p>
+<p align="center">
+  <b>English</b> · <a href="README.ru.md">Русский</a> &nbsp; | &nbsp;
+  <a href="https://ivanaki.github.io/cv/resume-en.pdf">Résumé · PDF</a> &nbsp; | &nbsp;
+  <a href="#selected-projects">Projects</a> · <a href="#education">Education</a> · <a href="#technical-skills">Skills</a>
+</p>
 
-## Professional profile
+Backend development with **C#/.NET and Python**. Project experience spans REST APIs, relational databases, Telegram integrations and application architecture, alongside Unity gameplay systems.
 
-**Backend Developer · C# / .NET · Python**
+## Selected projects
 
-Project experience in REST APIs, relational databases, application architecture and Unity development. Technical work includes service separation, dependency injection, data persistence and gameplay systems.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Ivanaki/CU_Hack"><img src="https://raw.githubusercontent.com/Ivanaki/CU_Hack/main/docs/media/presentation-cover.png" alt="Honest Month — Telegram expense tracking prototype" width="100%"></a>
+<h3><a href="https://github.com/Ivanaki/CU_Hack">Honest Month</a></h3>
+<p><b>Telegram bot &amp; Mini App · CU@Hack</b></p>
+<p>Expense tracking with statement imports, receipt recognition, voice input and a ledger that separates spending from transfers.</p>
+<p><b>Python · FastAPI · aiogram · SQLAlchemy · SQLite</b></p>
+<p><b>Role:</b> team member.<br><b>Result:</b> first place; initial working prototype built by the team in six hours.</p>
+<p><a href="https://github.com/Ivanaki/CU_Hack">Project &amp; demo</a> · <a href="https://github.com/Ivanaki/CU_Hack/blob/main/app/service.py">Backend code</a> · <a href="https://github.com/Ivanaki/CU_Hack/blob/main/docs/API.md">API</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Ivanaki/Paws-Parcels"><img src="https://raw.githubusercontent.com/Ivanaki/Paws-Parcels/main/docs/media/driving.webp" alt="Paws and Parcels — delivery van gameplay" width="100%"></a>
+<h3><a href="https://github.com/Ivanaki/Paws-Parcels">Paws&amp;Parcels</a></h3>
+<p><b>3D delivery adventure · NTO</b></p>
+<p>Complete MVP with quests, cargo handling, vehicle physics and save/load systems. Service-based architecture and reactive UI.</p>
+<p><b>C# · Unity · Zenject · MVVM · R3</b></p>
+<p><b>Role:</b> sole programmer, team Coffeebreak.<br><b>Result:</b> special nomination from Ninsar.Games and an internship invitation.</p>
+<p><a href="https://github.com/Ivanaki/Paws-Parcels">Project &amp; gameplay</a> · <a href="https://github.com/Ivanaki/Paws-Parcels#inside-the-code">Code tour</a></p>
+</td>
+</tr>
+</table>
 
 ## Education
 
@@ -24,35 +49,10 @@ Bachelor's degree in **Mathematics and Computer Science**, 02.03.01 · In progre
 | Category | Technologies |
 | --- | --- |
 | Programming languages | C#, Python |
-| Backend | ASP.NET Core, REST APIs, Entity Framework Core |
-| Databases | PostgreSQL |
-| Game development | Unity, Zenject, R3 |
+| Backend & integrations | ASP.NET Core, FastAPI, REST APIs, aiogram |
+| Databases & ORM | PostgreSQL, SQLite, Entity Framework Core, SQLAlchemy |
 | Architecture | Service separation, dependency injection, MVVM |
-| Version control | Git, GitHub |
+| Game development | Unity, Zenject, R3 |
+| Tools & verification | Git, GitHub, Docker Compose, pytest |
 
-## Selected projects
-
-### [GameMarket Backend](https://github.com/Ivanaki/GameMarketBackend)
-
-**ASP.NET Core · Entity Framework Core · PostgreSQL**
-
-Backend for a game catalogue:
-
-- API endpoints for listing, creating, updating and deleting game records.
-- Image uploads and relational data persistence.
-- Separate API, application, domain and data access layers; services and repositories connected through dependency injection.
-
-[API implementation](https://github.com/Ivanaki/GameMarketBackend/blob/main/GameMarket/GameMarket.API/Controllers/GamesController.cs) · [Data access](https://github.com/Ivanaki/GameMarketBackend/blob/main/GameMarket/GameMarket.DataAccess/Repositories/GamesRepository.cs)
-
-### [Paws&Parcels](https://github.com/Ivanaki/Paws-Parcels)
-
-**Unity · C# · Zenject · MVVM · R3**  
-**Role:** sole programmer · **Team:** Coffeebreak
-
-3D delivery game developed for the National Technology Olympiad:
-
-- Quest, cargo handling and save/load systems.
-- Service-based architecture and reactive UI with MVVM.
-- Vehicle physics adapted for cargo transport; gameplay and interface integration into a complete MVP.
-
-**Recognition:** special nomination from Ninsar.Games and an invitation to an internship.
+<p align="center"><a href="https://ivanaki.github.io/cv/resume-en.pdf"><b>Full résumé · English PDF</b></a> · <a href="https://ivanaki.github.io/cv/resume-ru.pdf">Резюме на русском · PDF</a></p>
