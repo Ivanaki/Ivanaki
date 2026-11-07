@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Vyacheslav Samuilenko</title>
+  <desc id="desc">Backend Developer. C# / .NET and Python.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111c2d"/>
+      <stop offset="1" stop-color="#172d3b"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#9bd8cc" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#grid)"/>
+  <rect x="50" y="51" width="5" height="196" rx="2.5" fill="#91dfcb"/>
+  <text x="80" y="86" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="4" fill="#91dfcb">IVANAKI / SOFTWARE DEVELOPMENT</text>
+  <text x="76" y="150" font-family="Arial, Helvetica, sans-serif" font-size="51" font-weight="700" fill="#f4f7fb">Vyacheslav Samuilenko</text>
+  <text x="80" y="199" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#c4d0df">Backend Developer</text>
+  <text x="80" y="238" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#91dfcb">C# / .NET</text>
+  <circle cx="198" cy="231" r="3" fill="#f1b480"/>
+  <text x="216" y="238" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#91dfcb">Python</text>
+  <g transform="translate(1000 150)" fill="none" stroke="#91dfcb" stroke-width="3" stroke-linejoin="round" opacity=".6">
+    <path d="m-36-42-31 42 31 42m72-84 31 42-31 42m-19-99-34 114"/>
+  </g>
+</svg>
