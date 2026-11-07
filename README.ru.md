@@ -2,50 +2,57 @@
   <img src="assets/header.svg" alt="Вячеслав Самуйленко — Backend-разработчик · C# / .NET · Python" width="100%">
 </p>
 
-<p align="center">
-  <a href="README.md">English</a> · <b>Русский</b>
-</p>
+<p align="center"><a href="README.md">English</a> · <b>Русский</b></p>
 
+## Профессиональный профиль
 
-## Обо мне
+**Backend-разработчик · C# / .NET · Python**
 
-Я **backend-разработчик**, учусь в **Центральном университете**.
+Проектный опыт в разработке REST API, работе с реляционными базами данных, архитектурой приложений и Unity. Технические задачи: разделение на сервисы, внедрение зависимостей, хранение данных и реализация игровых систем.
 
-У меня есть опыт разработки на **C# и Unity**. Сейчас дополняю его backend-разработкой и работой над программными продуктами других направлений. Основной фокус — API, базы данных и архитектура приложений.
+## Образование
+
+**Центральный университет · 2026–2030**  
+Бакалавриат **«Математика и компьютерные науки»**, 02.03.01 · Обучение продолжается, ожидаемый выпуск — 2030 год
+
+- **Программа:** [«Разработка»](https://cu.ru/bachelor/development).
+- **Профессиональный фокус:** backend-разработка.
+- **Основные дисциплины программы:** программирование, математический анализ, линейная алгебра, алгоритмы и структуры данных, базы данных, компьютерные сети и основы промышленной разработки.
+
+## Технические навыки
+
+| Категория | Технологии |
+| --- | --- |
+| Языки программирования | C#, Python |
+| Backend | ASP.NET Core, REST API, Entity Framework Core |
+| Базы данных | PostgreSQL |
+| Разработка игр | Unity, Zenject, R3 |
+| Архитектура | Разделение на сервисы, внедрение зависимостей, MVVM |
+| Контроль версий | Git, GitHub |
 
 ## Проекты
 
 ### [GameMarket Backend](https://github.com/Ivanaki/GameMarketBackend)
 
-Backend-проект каталога игр: получение, создание, изменение и удаление записей, загрузка изображений и хранение данных в PostgreSQL.
+**ASP.NET Core · Entity Framework Core · PostgreSQL**
 
-**C# · ASP.NET Core · Entity Framework Core · PostgreSQL**
+Backend каталога игр:
 
-Отдельные слои API, приложения, предметной области и доступа к данным. Сервисы и репозитории связаны через внедрение зависимостей.
+- API для получения, создания, изменения и удаления записей об играх.
+- Загрузка изображений и хранение данных в реляционной базе.
+- Отдельные слои API, приложения, предметной области и доступа к данным; сервисы и репозитории связаны через внедрение зависимостей.
 
-<a href="https://github.com/Ivanaki/GameMarketBackend/blob/main/GameMarket/GameMarket.API/Controllers/GamesController.cs">Контроллер API</a> · <a href="https://github.com/Ivanaki/GameMarketBackend/blob/main/GameMarket/GameMarket.DataAccess/Repositories/GamesRepository.cs">Доступ к данным</a>
+[Реализация API](https://github.com/Ivanaki/GameMarketBackend/blob/main/GameMarket/GameMarket.API/Controllers/GamesController.cs) · [Доступ к данным](https://github.com/Ivanaki/GameMarketBackend/blob/main/GameMarket/GameMarket.DataAccess/Repositories/GamesRepository.cs)
 
 ### [Paws&Parcels](https://github.com/Ivanaki/Paws-Parcels)
 
-Трёхмерная игра про доставку, созданная командой **Coffeebreak** для **Национальной технологической олимпиады**. Как единственный программист, разработал системы квестов, грузов и сохранений, выстроил сервисную архитектуру и объединил игровые механики и интерфейс в готовый MVP.
+**Unity · C# · Zenject · MVVM · R3**  
+**Роль:** единственный программист · **Команда:** Coffeebreak
 
-**C# · Unity · Zenject · MVVM · R3**
+Трёхмерная игра про доставку для Национальной технологической олимпиады:
 
-Команда получила специальную номинацию от **Ninsar.Games** и приглашение на стажировку.
+- Системы квестов, взаимодействия с грузами и сохранения/загрузки прогресса.
+- Сервисная архитектура и реактивный интерфейс с MVVM.
+- Адаптация физики транспорта под перевозку грузов; интеграция игровых механик и интерфейса в готовый MVP.
 
-<a href="https://github.com/Ivanaki/Paws-Parcels">
-  <img src="https://raw.githubusercontent.com/Ivanaki/Paws-Parcels/main/docs/media/driving.webp" alt="Paws&Parcels — поездка на фургоне по городу" width="720">
-</a>
-
-## Технологии
-
-| Область | Технологии |
-| --- | --- |
-| Языки | C#, Python |
-| Backend и данные | ASP.NET Core, Entity Framework Core, PostgreSQL |
-| Игры | Unity, Zenject, R3 |
-| Архитектура и инструменты | Разделение на сервисы, внедрение зависимостей, MVVM, Git |
-
----
-
-В репозиториях выше — исходный код, подробности реализации и документация проектов.
+**Результат:** специальная номинация от Ninsar.Games и приглашение на стажировку.
